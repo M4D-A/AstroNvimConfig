@@ -3,7 +3,7 @@
 ## 🛠️ Installation
 
 ```shell
-git clone https://github.com/M4D-A/AstroNvimConfig ~/.config/nvim
+git clone git@github.com:M4D-A/AstroNvimConfig.git
 ```
 
 ## Backup
