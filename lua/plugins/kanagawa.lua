@@ -23,7 +23,7 @@ return {
             FloatTitle = { bg = "none" },
             Folded = { bg = "none" },
             UfoFoldedEllipsis = { fg = palette.surimiOrange },
-            WinSeparator = { fg = palette.surimiOrange },
+            WinSeparator = { fg = theme.ui.float.fg_border },
 
             TelescopeTitle = { fg = theme.ui.special, bold = true },
             TelescopePromptBorder = { fg = theme.ui.float.fg_border, bg = "none" },

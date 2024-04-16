@@ -21,11 +21,11 @@ return {
 
     mappings = {
       n = {
-        L = {
+        ["<Tab>"] = {
           function() require("astrocore.buffer").nav(vim.v.count > 0 and vim.v.count or 1) end,
           desc = "Next buffer",
         },
-        H = {
+        ["<S-Tab>"] = {
           function() require("astrocore.buffer").nav(-(vim.v.count > 0 and vim.v.count or 1)) end,
           desc = "Previous buffer",
         },
