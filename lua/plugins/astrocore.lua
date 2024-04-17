@@ -20,26 +20,7 @@ return {
     },
 
     mappings = {
-      n = {
-        ["<Tab>"] = {
-          function() require("astrocore.buffer").nav(vim.v.count > 0 and vim.v.count or 1) end,
-          desc = "Next buffer",
-        },
-        ["<S-Tab>"] = {
-          function() require("astrocore.buffer").nav(-(vim.v.count > 0 and vim.v.count or 1)) end,
-          desc = "Previous buffer",
-        },
-
-        ["<Leader>bD"] = {
-          function()
-            require("astroui.status.heirline").buffer_picker(
-              function(bufnr) require("astrocore.buffer").close(bufnr) end
-            )
-          end,
-          desc = "Pick to close",
-        },
-        ["<Leader>b"] = { desc = "Buffers" },
-      },
+      n = {},
 
       t = {},
     },
