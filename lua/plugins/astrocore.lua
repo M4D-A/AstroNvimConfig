@@ -20,7 +20,32 @@ return {
     },
 
     mappings = {
-      n = {},
+      n = {
+        -- Disable all splits
+        ["<C-h>"] = false,
+        ["<C-j>"] = false,
+        ["<C-k>"] = false,
+        ["<C-l>"] = false,
+
+        ["<C-H>"] = false,
+        ["<C-J>"] = false,
+        ["<C-K>"] = false,
+        ["<C-L>"] = false,
+
+        ["<C-Left>"] = false,
+        ["<C-Down>"] = false,
+        ["<C-Up>"] = false,
+        ["<C-Right>"] = false,
+
+        ["<Leader>tv"] = false,
+        ["<Leader>th"] = false,
+
+        ["|"] = false,
+        ["\\"] = false,
+
+        ["s"] = false,
+        ["S"] = false,
+      },
 
       t = {},
     },
